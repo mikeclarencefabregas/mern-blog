@@ -24,15 +24,27 @@ const SignUp = () => {
           <form className="flex flex-col gap-4">
             <div>
               <Label value="Your username" />
-              <TextInput placeholder="Username" id="username"></TextInput>
+              <TextInput
+                type="text"
+                placeholder="Username"
+                id="username"
+              ></TextInput>
             </div>
             <div>
               <Label value="Your Email" />
-              <TextInput placeholder="example@email.com" id="email"></TextInput>
+              <TextInput
+                type="email"
+                placeholder="example@email.com"
+                id="email"
+              ></TextInput>
             </div>
             <div>
               <Label value="Your Password" />
-              <TextInput placeholder="Password" id="password"></TextInput>
+              <TextInput
+                type="password"
+                placeholder="Password"
+                id="password"
+              ></TextInput>
             </div>
             <Button gradientDuoTone="purpleToPink" type="submit">
               Sign Up
