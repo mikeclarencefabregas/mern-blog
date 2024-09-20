@@ -11,7 +11,6 @@ const DashUsers = () => {
   const [showMore, setShowMore] = useState(true);
   const [showModal, setShowModal] = useState(false);
   const [userIdToDelete, setUserIdToDelete] = useState([]);
-  console.log(users);
 
   useEffect(() => {
     const fetchUsers = async () => {
