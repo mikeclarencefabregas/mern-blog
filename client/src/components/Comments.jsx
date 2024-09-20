@@ -3,7 +3,6 @@ import moment from "moment";
 
 const Comments = ({ comment }) => {
   const [user, setUser] = useState({});
-  console.log(user);
 
   useEffect(() => {
     const getUser = async () => {
