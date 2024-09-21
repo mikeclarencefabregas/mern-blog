@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Avatar,
-  Button,
-  Dropdown,
-  Navbar,
-  NavbarBrand,
-  TextInput,
-} from "flowbite-react";
+import { Avatar, Button, Dropdown, Navbar, TextInput } from "flowbite-react";
 import { Link, useLocation } from "react-router-dom";
 import { AiOutlineSearch } from "react-icons/ai";
 import { FaMoon, FaSun } from "react-icons/fa";
@@ -93,9 +86,8 @@ const Header = () => {
             </Button>
           </Link>
         )}
-
-        <Navbar.Toggle />
       </div>
+      <Navbar.Toggle />
       <Navbar.Collapse>
         <Navbar.Link active={path === "/"} as={"div"}>
           <Link to="/">Home</Link>
